@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCF4DC58CDFEE7F973CCE161 /* Pods_iBop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A228F9F73443E2728C75822F /* Pods_iBop.framework */; };
 		CDA0724D1CFC183500D9DBCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0724C1CFC183500D9DBCD /* AppDelegate.swift */; };
 		CDA0724F1CFC183500D9DBCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0724E1CFC183500D9DBCD /* ViewController.swift */; };
 		CDA072521CFC183500D9DBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA072501CFC183500D9DBCD /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		CDA072571CFC183500D9DBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA072551CFC183500D9DBCD /* LaunchScreen.storyboard */; };
 		CDA072621CFC183500D9DBCD /* iBopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA072611CFC183500D9DBCD /* iBopTests.swift */; };
 		CDA0726D1CFC183500D9DBCD /* iBopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0726C1CFC183500D9DBCD /* iBopUITests.swift */; };
+		CDA0727D1CFC196E00D9DBCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDA0727C1CFC196E00D9DBCD /* GoogleService-Info.plist */; };
+		CDA0727F1CFC1B0F00D9DBCD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0727E1CFC1B0F00D9DBCD /* BaseViewController.swift */; };
+		CDA072811CFC1BD800D9DBCD /* BaseModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA072801CFC1BD800D9DBCD /* BaseModelController.swift */; };
+		CDA072841CFC1EBC00D9DBCD /* ModelControllerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA072831CFC1EBC00D9DBCD /* ModelControllerConfig.swift */; };
+		CDB62D801CFC5B0B00D548D0 /* UserModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB62D7F1CFC5B0B00D548D0 /* UserModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F95B9A34FB7BADE82C0DD04 /* Pods-iBop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBop.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBop/Pods-iBop.release.xcconfig"; sourceTree = "<group>"; };
+		A228F9F73443E2728C75822F /* Pods_iBop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA072491CFC183500D9DBCD /* iBop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA0724C1CFC183500D9DBCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA0724E1CFC183500D9DBCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		CDA072681CFC183500D9DBCD /* iBopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA0726C1CFC183500D9DBCD /* iBopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBopUITests.swift; sourceTree = "<group>"; };
 		CDA0726E1CFC183500D9DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA0727C1CFC196E00D9DBCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDA0727E1CFC1B0F00D9DBCD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CDA072801CFC1BD800D9DBCD /* BaseModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModelController.swift; sourceTree = "<group>"; };
+		CDA072831CFC1EBC00D9DBCD /* ModelControllerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelControllerConfig.swift; sourceTree = "<group>"; };
+		CDB62D7F1CFC5B0B00D548D0 /* UserModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModelController.swift; sourceTree = "<group>"; };
+		E34F681ABC3BFC188BAAFB9E /* Pods-iBop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBop/Pods-iBop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF4DC58CDFEE7F973CCE161 /* Pods_iBop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C51319B149C55CD349247A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34F681ABC3BFC188BAAFB9E /* Pods-iBop.debug.xcconfig */,
+				2F95B9A34FB7BADE82C0DD04 /* Pods-iBop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD086242CC16F4889DEE4BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A228F9F73443E2728C75822F /* Pods_iBop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDA072401CFC183500D9DBCD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				CDA072601CFC183500D9DBCD /* iBopTests */,
 				CDA0726B1CFC183500D9DBCD /* iBopUITests */,
 				CDA0724A1CFC183500D9DBCD /* Products */,
+				9C51319B149C55CD349247A1 /* Pods */,
+				BD086242CC16F4889DEE4BEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,15 @@
 		CDA0724B1CFC183500D9DBCD /* iBop */ = {
 			isa = PBXGroup;
 			children = (
+				CDA072821CFC1E9C00D9DBCD /* Service */,
 				CDA0724C1CFC183500D9DBCD /* AppDelegate.swift */,
 				CDA0724E1CFC183500D9DBCD /* ViewController.swift */,
 				CDA072501CFC183500D9DBCD /* Main.storyboard */,
 				CDA072531CFC183500D9DBCD /* Assets.xcassets */,
+				CDA0727C1CFC196E00D9DBCD /* GoogleService-Info.plist */,
 				CDA072551CFC183500D9DBCD /* LaunchScreen.storyboard */,
 				CDA072581CFC183500D9DBCD /* Info.plist */,
+				CDA0727E1CFC1B0F00D9DBCD /* BaseViewController.swift */,
 			);
 			path = iBop;
 			sourceTree = "<group>";
@@ -125,6 +162,16 @@
 			path = iBopUITests;
 			sourceTree = "<group>";
 		};
+		CDA072821CFC1E9C00D9DBCD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CDA072801CFC1BD800D9DBCD /* BaseModelController.swift */,
+				CDA072831CFC1EBC00D9DBCD /* ModelControllerConfig.swift */,
+				CDB62D7F1CFC5B0B00D548D0 /* UserModelController.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDA072711CFC183500D9DBCD /* Build configuration list for PBXNativeTarget "iBop" */;
 			buildPhases = (
+				7B56D7CFD12DA1ED83C4A524 /* Check Pods Manifest.lock */,
 				CDA072451CFC183500D9DBCD /* Sources */,
 				CDA072461CFC183500D9DBCD /* Frameworks */,
 				CDA072471CFC183500D9DBCD /* Resources */,
+				D7362BFDA9B2C530777609B4 /* Embed Pods Frameworks */,
+				FA60581E7B81643345565DE9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA072571CFC183500D9DBCD /* LaunchScreen.storyboard in Resources */,
+				CDA0727D1CFC196E00D9DBCD /* GoogleService-Info.plist in Resources */,
 				CDA072541CFC183500D9DBCD /* Assets.xcassets in Resources */,
 				CDA072521CFC183500D9DBCD /* Main.storyboard in Resources */,
 			);
@@ -254,13 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B56D7CFD12DA1ED83C4A524 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7362BFDA9B2C530777609B4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBop/Pods-iBop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA60581E7B81643345565DE9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBop/Pods-iBop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDA072451CFC183500D9DBCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA072811CFC1BD800D9DBCD /* BaseModelController.swift in Sources */,
+				CDA072841CFC1EBC00D9DBCD /* ModelControllerConfig.swift in Sources */,
+				CDB62D801CFC5B0B00D548D0 /* UserModelController.swift in Sources */,
 				CDA0724F1CFC183500D9DBCD /* ViewController.swift in Sources */,
 				CDA0724D1CFC183500D9DBCD /* AppDelegate.swift in Sources */,
+				CDA0727F1CFC1B0F00D9DBCD /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +505,10 @@
 		};
 		CDA072721CFC183500D9DBCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34F681ABC3BFC188BAAFB9E /* Pods-iBop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iBop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abc.iBop;
@@ -413,8 +518,10 @@
 		};
 		CDA072731CFC183500D9DBCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F95B9A34FB7BADE82C0DD04 /* Pods-iBop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iBop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abc.iBop;
@@ -487,6 +594,7 @@
 				CDA072731CFC183500D9DBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDA072741CFC183500D9DBCD /* Build configuration list for PBXNativeTarget "iBopTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +603,7 @@
 				CDA072761CFC183500D9DBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDA072771CFC183500D9DBCD /* Build configuration list for PBXNativeTarget "iBopUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +612,7 @@
 				CDA072791CFC183500D9DBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

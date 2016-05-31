@@ -1,0 +1,6 @@
+framework module Pods_iBop {
+  umbrella header "Pods-iBop-umbrella.h"
+
+  export *
+  module * { export * }
+}
